@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Farm Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="farmers-blog.html">Farmers' Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <!-- Search Form -->
+            <form action="#" method="get" class="search-form">
+                <input type="text" name="search" placeholder="Search..." aria-label="Search">
+                <button type="submit">Search</button>
+            </form>
+        </nav>
+    </header>
+
+    <!-- Insert Image -->
+    <img src="images/Screenshot_20250429-171321.jpg" alt="Farm Management Banner" class="banner-image">
+
+    <!-- Hero Section -->
+    <section id="home">
+        <h1>Welcome to Our Portfolio</h1>
+        <p>Empowering communities with technology for sustainable farming.</p>
+    </section>
+
+    <!-- Free Farm Management Software Section -->
+    <section id="free-software">
+        <h2>Free Farm Management Software</h2>
+        <p>Discover free farm management software that actually works for organic farms. Our tools are designed to help local farmers streamline their operations, improve productivity, and embrace sustainable practices.</p>
+        <p>Whether you're managing crop rotations, tracking soil health, or planning harvests, our software provides the features you need to succeed. It's tailored specifically for organic farms and supports local farming communities.</p>
+        <p><strong>Key Benefits:</strong></p>
+        <ul>
+            <li>Easy-to-use interface for farmers of all skill levels.</li>
+            <li>Tools for crop tracking, soil data visualization, and weather integration.</li>
+            <li>Offline support to ensure uninterrupted access.</li>
+            <li>Completely free for local organic farms.</li>
+        </ul>
+        <p><a href="projects/project1.html">Learn more about our Community Farm Management Tool</a>.</p>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi, We [Tiger Developers], a web developer passionate about integrating technology with farming practices. My goal is to develop solutions that help local farmers optimize their operations.</p>
+    </section>
+
+    <main>
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li>
+                    <a href="projects/project1.html">Community Farm Management Tool</a>
+                    <p>A tool to help farmers manage crop rotations, track soil health, and plan harvests.</p>
+                </li>
+                <li>
+                    <a href="projects/project2.html">Another Project</a>
+                    <p>Description of the second project goes here.</p>
+                </li>
+                <li>
+                    <a href="farmers-blog.html">Farmers' Blog</a>
+                    <p>Insights, tips, and stories about sustainable farming practices.</p>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="#">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
